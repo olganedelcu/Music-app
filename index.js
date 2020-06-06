@@ -26,5 +26,6 @@ window.addEventListener('load', () => {
           const bubble = document.createElement("div");
           visual.appendChild(bubble); //attaching the bubbles to visual div
           bubble.style.backgroundColor = colors[index];
+          bubble.style.animation =  'jump 1s ease';
       }
     });
