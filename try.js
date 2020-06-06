@@ -1,2 +1,0 @@
-var outerSpace = "Saturn";
-
