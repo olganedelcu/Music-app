@@ -1,1 +1,0 @@
-let first name = 'Olga'
