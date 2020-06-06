@@ -4,9 +4,11 @@ window.addEventListener('load', () => {
     const pads = document.querySelectorAll(".pads div");
 
     //Sound
-    pads.forEach(pad =>{
+    pads.forEach((pad, index) => {
         pad.addEventListener("click", function() {
-            sounds[4]
+          sounds[index].currentTime = 0;
+          sounds[index].play();
+          createBubble(index);
         });
-    });
+      });
 });
