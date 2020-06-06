@@ -7,3 +7,10 @@ body{
     background-color: aliceblue;
     font-family: 'Tenali Ramakrishna', sans-serif;
 }
+.app{
+    height:100hv;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
